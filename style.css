@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(241, 239, 239, 0.692);
+}
+nav {
+  min-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20%;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+  padding: 6px;
+  margin-top: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(88, 75, 75);
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+nav a:hover {
+  color: blue;
+}
+.img {
+  padding: 15px;
+}
+.img h2 {
+  color: rgb(22, 62, 114);
+  display: inline-block;
+}
+.fe {
+  color: rgb(22, 62, 114);
+}
+span {
+  color: rgb(22, 62, 114);
+}
+.container {
+  min-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10%;
+  margin: 20px;
+}
+.container h1 {
+  font-size: 60px;
+  margin-top: -20px;
+}
+.sub-text {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.sub-text p {
+  margin-top: -250px;
+  font-size: 19px;
+}
+.logo {
+  margin-top: -21%;
+  margin-left: 10%;
+}
+.logo2 {
+  margin-top: -25%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.logo2 img {
+  margin-right: 100px;
+}
+.btn {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(11, 52, 107);
+  margin-left: 35%;
+  height: 60px;
+  width: 150px;
+  border-radius: 100px;
+  margin-top: -20px;
+}
+button a {
+  color: #fff;
+  text-decoration: none;
+}
+.check {
+  color: rgb(22, 62, 114);
+  margin-left: 55%;
+}
+.check h2 {
+  margin-top: -45px;
+}
